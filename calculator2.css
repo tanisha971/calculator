@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+* {
+    background-image: url("https://img.freepik.com/free-photo/background-gradient-lights_23-2149304982.jpg");
+    background-size: cover;
+    color: white;
+}
+
+body {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode {
+    color: #fff;
+  }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.button {
+    height: 3rem;
+    width: 4rem;
+    padding: 20px;
+    margin: 0 3px;
+    text-align: center;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    background-color: 9px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px purple;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    background: transparent !important;
+}
