@@ -3,45 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="calculator.css" />
     <link rel="stylesheet" href="calculator2.css" />
     <title>CALCULATOR</title>
 </head>
 <body>
-    <h1 class="text-center">Welcome to Calculate me!</h1>
-    <div class="container flex flex-col items-center mx-auto m-w-20">
-        <div class="row">
-            <input class="input" type="text">
+    <div class="container-fluid">
+        <!-- Background animation -->
+        <div class="background">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
         </div>
-        <div class="row btn">
-            <button class="button">C</button>
-            <button class="button">%</button>
-            <button class="button">(</button>
-            <button class="button">)</button>
-        </div>
-        <div class="row btn">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row btn">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row btn">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">+</button>
-        </div>
-        <div class="row btn">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">-</button>
+        <div class="calculator-wrapper">
+            <h1 class="text-center">Welcome to Calculate me!</h1>
+            <div class="calculator glass">
+                <div class="row">
+                    <input class="input glass" type="text">
+                </div>
+                <div class="row btn">
+                    <button class="button">C</button>
+                    <button class="button">%</button>
+                    <button class="button">(</button>
+                    <button class="button">)</button>
+                </div>
+                <div class="row btn">
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button">*</button>
+                </div>
+                <div class="row btn">
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">/</button>
+                </div>
+                <div class="row btn">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">+</button>
+                </div>
+                <div class="row btn">
+                    <button class="button">0</button>
+                    <button class="button">.</button>
+                    <button class="button">=</button>
+                    <button class="button">-</button>
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
